@@ -8,15 +8,19 @@
  * All Rights Reserved.
  ************************************************************************************/
 
-class SMSNotifier_Sms77_Provider implements SMSNotifier_ISMSProvider_Model {
+class SMSNotifier_Seven_Provider implements SMSNotifier_ISMSProvider_Model {
 
     private $userName;
     private $password;
     private $parameters = array();
 
-    const SERVICE_URI = 'https://gateway.sms77.io/api/';
+    const SERVICE_URI = 'https://gateway.seven.io/api/';
     private static $REQUIRED_PARAMETERS = array(
-        array('name' => 'ApiKey', 'label' => 'API Key', 'type' => 'text'),
+        array(
+            'label' => 'API Key',
+            'name' => 'ApiKey',
+            'type' => 'text'
+        ),
     );
 
     /**
@@ -24,7 +28,7 @@ class SMSNotifier_Sms77_Provider implements SMSNotifier_ISMSProvider_Model {
      * @return <String> provider name
      */
     public function getName() {
-        return 'sms77';
+        return 'seven';
     }
 
     /**
