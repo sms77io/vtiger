@@ -7,7 +7,7 @@ Installing this plugin enables you to send SMS in Vtiger CRM via [seven](https:/
 
 ## Installation
 ### Via terminal
-`wget https://github.com/seven-io/vtiger/blob/master/Seven.php -P /path/to/vtigercrm/modules/SMSNotifier/providers`
+`wget https://raw.githubusercontent.com/seven-io/vtiger/master/Seven.php -P /path/to/vtigercrm/modules/SMSNotifier/providers`
 
 ### Via FTP
 
