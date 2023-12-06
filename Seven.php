@@ -2,8 +2,6 @@
 
 class SMSNotifier_Seven_Provider implements SMSNotifier_ISMSProvider_Model {
 
-    private $userName;
-    private $password;
     private $parameters = array();
 
     const SERVICE_URI = 'https://gateway.seven.io/api/';
@@ -53,8 +51,7 @@ class SMSNotifier_Seven_Provider implements SMSNotifier_ISMSProvider_Model {
      * @param <String> $password
      */
     public function setAuthParameters($userName, $password) {
-        $this->userName = $userName;
-        $this->password = $password;
+        return false;
     }
 
     /**
