@@ -1,4 +1,5 @@
-![](https://www.seven.io/wp-content/uploads/Logo.svg "seven Logo")
+<img src="https://www.seven.io/wp-content/uploads/Logo.svg" width="250" />
+
 
 # seven for Vtiger SMS Notifier Extension
 Register an account and get free SMS credits for testing our service at [seven](https://www.seven.io).
